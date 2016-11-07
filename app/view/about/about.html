@@ -1,0 +1,57 @@
+<!-- about -->
+<div id="about" class="about">
+    <div class="col-md-6 about-left">
+        <div id="owl-demo1" class="owl-carousel owl-carousel2">
+            <div class="item">
+                <div class="about-left-grid">
+                    <h2>Hi! I'm <span>Aman Kumar</span></h2>
+
+                </div>
+            </div>
+            <div class="item">
+                <div class="about-left-grid">
+                    <h2>Hi! I'm <span>Aman Kumar</span></h2>
+
+                </div>
+            </div>
+            <div class="item">
+                <div class="about-left-grid">
+                    <h2>Hi! I'm <span>Aman Kumar</span></h2>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 about-right">
+
+    </div>
+    <div class="clearfix"> </div>
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <script src="js/owl.carousel.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#owl-demo1").owlCarousel({
+                items : 1,
+                lazyLoad : false,
+                autoPlay : true,
+                navigation : false,
+                navigationText :  false,
+                pagination : true,
+            });
+        });
+    </script>
+    <!-- Feedback -->
+    <script>
+        $(document).ready(function() {
+            $("#owl-demo3").owlCarousel({
+                items : 1,
+                lazyLoad : false,
+                autoPlay : true,
+                navigation : false,
+                navigationText :  true,
+                pagination :true,
+            });
+        });
+    </script>
+</div>
+<!-- /about -->
